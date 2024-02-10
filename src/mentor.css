@@ -1,0 +1,78 @@
+.hh {
+    padding: 90px;
+}
+.hh h2 {
+    font-weight: 600;
+}
+.mentor-card-item1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+}
+.mentor-card-item2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+}
+.mentor-card-item3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+}
+
+.mentor-card-item3 .mentor-card-text {
+    width: 33%;
+}
+.mentor-card-item3 .mentor-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.mentor-card {
+    margin-right: 20px;
+}
+.mentor-card-text {
+    background-color: #F4F4F4;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+    margin-top: 100px;
+}
+.mentor-card-text h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.mentor-card-text h3 {
+    font-size: 17px;
+}
+.mentor-card-text p {
+    font-size: 13px;
+
+    color: #6B6B6B;
+}
+.mentor-card img {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 12%;
+    top: 4%;
+    left: 11%;
+    position: absolute;
+    /* z-index: 1000; */
+    margin-bottom: 50px;
+}
+.mentor-card .menn1 {
+    left: 43%;
+}
+.mentor-card .menn2 {
+    left: 73%;
+}

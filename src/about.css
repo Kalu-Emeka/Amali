@@ -1,0 +1,154 @@
+.about-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url('./assets/about-hero.png');
+    padding: 90px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:grayscale(100%);
+}
+.about-header h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.founder-item {
+    display: flex;
+    background-color:#EEEEEE;
+    padding: 50px 5px 50px 50px;
+}
+.founder-item img  {
+    width: 40%;
+}
+.founder-item .founder {
+    width: 50%;
+}
+.founder-item .founder h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.founder-item .founder p {
+    font-size: 15px;
+    margin-right: 50px;
+}
+.core-values {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 20px 20px 50px 20px;
+}
+.core-values img {
+    width: 40%;
+}
+.core-values-subtext {
+    width: 50%;
+    margin-left: 40px;
+}
+.core-values h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.core-values p {
+    font-size: 14px;
+    width: 90%;
+    line-height: 17px;
+    color: #413F3F;
+}
+.executive {
+    background-color: #F8FFF6;
+    padding: 30px 0px 40px 0px;
+}
+.exe h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.executive-text1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.text2 {
+    flex-direction: row;
+}
+.txt3 {
+    flex-direction: row;
+}
+.executive-text1 img {
+    width: 35%;
+}
+.executive-header-text {
+    padding: 30px 30px 30px 40px;
+    width: 35%;
+}
+.text2 .executive-header-text {
+    padding: 0px 50px 0px 0px;
+}
+.executive-header-text h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.executive-header-text h2 {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.executive-header-text p {
+    font-size: 13px;
+    color: #6B6B6B;
+}
+.suitability {
+    display: flex;
+    padding: 30px 0px 30px 60px;
+}
+.suitability-text {
+    color: white;
+    width: 50%;
+    margin-right: 30px;
+}
+.suitability-text h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.suitability-text p {
+    font-size: 13.5px;
+}
+.suitability img {
+    width: 40%;
+}
+.program-outline {
+    background-color: white;
+    padding: 30px 100px 50px 100px;
+}
+.program-outline h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.program-outline p {
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+.about-banner {
+    background-color: white;
+    padding: 10px 50px 40px 50px;
+    width: 100%;
+}
+.about-banner img {
+    width: 99%;
+}

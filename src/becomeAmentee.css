@@ -1,0 +1,35 @@
+.qualities-mentee {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 40px 10px 40px 70px;
+}
+.mentee1 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 90%;
+    margin-right: 20px;
+}
+.mentee1 h2 {
+    width: 80%;
+    font-size: 25px;
+    font-weight: 600;
+}
+.mentee1 p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.mentee2 {
+    background-color: #4DB848;
+    color: white;
+    padding: 30px;
+    width: 100%;
+    margin-right: 20px;
+}
+.mentee2 p {
+    font-size: 12px;
+}
+.mentee3 img {
+    width: 80%;
+}

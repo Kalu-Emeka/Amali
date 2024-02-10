@@ -1,0 +1,103 @@
+.becomeAmentor {
+    color: white;
+    background-image: url('/public/images/mentor.png');
+    padding: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.becomeAmentor h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.become-text {
+    background-color: white;
+    color: black;
+    padding: 40px 50px 40px 50px;
+}
+.become-text p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    width: 99%;
+}
+.get-involve {
+    background-color: #EEEEEE;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.get-involve h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.get-involve p {
+    font-size: 14px;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.get-involve button {
+    background-color: #4DB848;
+    padding: 9px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600; 
+}
+.qua11 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px 40px 40px 40px;
+}
+.qua11 img {
+    width: 37%;
+}
+.qua11 .qualities-text {
+    width: 40%;
+    padding-right: 20px;
+}
+.qua11 h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.qua11 p {
+    font-size: 15px;
+    line-height: 18px;
+}
+.p-text {
+    margin-top: 10px;
+}
+.qua1 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px 40px 40px 40px;
+}
+.qua1 .qualities-text {
+    width: 40%;
+    padding-left: 50px;
+}
+.qua1 img {
+    width: 37%;
+}
+.qua1 h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.qua1 p {
+    font-size: 15px;
+}

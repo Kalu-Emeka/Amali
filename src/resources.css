@@ -1,0 +1,45 @@
+.presskit {
+    background-color: white;
+    padding: 60px;
+}
+.presskit h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.presskit-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+.presskit-item img {
+    width: 5%;
+    margin-right: 50px;
+}
+.presskit-item button {
+    border: none;
+    margin-top: 10px;
+    background-color: #EEEEEE;
+    padding: 6px 10px 6px 10px;
+    border-radius: 15px;
+}
+.media {
+    background-color: #EEEEEE;
+    padding: 30px 0px 50px 50px;
+}
+.media h2 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.media img {
+    width: 140%;
+    height: 35vh;
+}
+.newss {
+    background-color: white;
+    padding: 30px 0px 90px 50px;
+}
+.newss h2 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

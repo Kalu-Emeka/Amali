@@ -1,0 +1,122 @@
+.mentorForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/public/images/form-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.mentorForm h2 {
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.mentorForm-item {
+    background-color: rgba(3, 3, 3, 0.454);
+    border-radius: 5px;
+    color: white;
+    padding: 30px;
+    margin-top: 5px;
+    width: 70%;
+}
+.name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.name label {
+    font-size: 15px;
+    font-weight: 600;
+}
+.name .i1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.name .i1 input {
+    padding: 8px;
+    outline: none;
+    width: 90%;
+    color: black;
+    margin: 20px 20px 10px 0px;
+    border-radius: 2px;
+}
+.phone {
+    display: flex;
+}
+.phone label {
+    font-weight: 600;
+    font-size: 15px;
+}
+.phone input {
+    padding: 8px;
+    outline: none;
+    width: 90%;
+    color: black;
+    margin: 10px 20px 10px 0px;
+    border-radius: 2px;
+}
+.phone .phone1, .phone2,select {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.form-control {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+#hbb label {
+    font-size: 13px;
+}
+.files {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.files label {
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.files p {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.terms {
+    margin-bottom: 20px;
+}
+.terms span{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.bnn {
+    border: none;
+    padding: 7px 15px 7px 15px;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+.sts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sts label {
+    margin-right: 5px;
+}
