@@ -3,8 +3,11 @@
     padding: 60px;
 }
 .presskit h2 {
-    font-size: 30px;
+    font-size: 37px;
     margin-bottom: 30px;
+}
+.presskit-item p {
+    font-size: 21px;
 }
 .presskit-item {
     display: flex;

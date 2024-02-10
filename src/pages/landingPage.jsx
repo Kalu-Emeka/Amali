@@ -8,7 +8,7 @@ function Landingpage () {
             <Nav/>
             <div className="header text-white">
                 <div className="header-item">
-                    <div className="header-subtext px-14 py-20">
+                    <div className="header-subtext py-20">
                         <h2>Welcome to Amali</h2>
                         <p>In the Amali mentoring program, we forge connections between individuals seeking guidance (mentees) and experienced mentors.</p>
                         <div className="btn">
@@ -20,9 +20,9 @@ function Landingpage () {
                             <span><span className="num">1,726</span>mentees use Amali daily</span>
                         </div>
                         <div className="collections">
-                            <img src="/images/figures.png" alt=""/>
-                            {/* <img class="banner" src="images/banner.png" alt=""> */}
+                            <img className="figs" src="/images/Frame 630451.png" alt=""/>
                         </div>
+                        {/* <img class="banner" src="images/banner.png" alt=""> */}
                     </div> 
                 </div>
             </div>
