@@ -40,6 +40,7 @@
 }
 .mentor-card {
     margin-right: 20px;
+    /* width: 48%; */
 }
 .mentor-card-text {
     background-color: #F4F4F4;
@@ -48,14 +49,14 @@
     margin-top: 150px;
 }
 .mentor-card-text h2 {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
 }
 .mentor-card-text h3 {
-    font-size: 25px;
+    font-size: 21px;
 }
 .mentor-card-text p {
-    font-size: 17px;
+    font-size: 15px;
 
     color: #6B6B6B;
 }
@@ -64,7 +65,7 @@
     justify-content: center;
     align-items: center;    
     width: 12%;
-    top: 6%;
+    top: 9%;
     left: 11%;
     position: absolute;
     /* z-index: 1000; */
