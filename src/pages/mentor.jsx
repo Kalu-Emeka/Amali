@@ -19,8 +19,8 @@ function Mentor () {
                         <p>Rasha Oudeh is a serial pharmaceutical entrepreneur where her career in the pharmaceutical and healthcare industry began in 2007. She acquired CEDEM AG in Zurich, Switzerland in 2016 and became its CEO. She founded Amali Mentoring Network in 2019 where she mentors entrepreneurs in international business skills. Ms. Oudeh is a Frankfurt School of Finance & Management EMBA graduate.</p>
                     </div>
                 </div>
-                <div className="mentor-card">
-                    <img className="menn1" src="/images/mentor-2.png" alt="" />
+                <div className="mentor-card" id="nab">
+                    <img src="/images/mentor-2.png" alt="" />
                     <div className="mentor-card-text">
                         <h2>Nabila Morcos</h2>
                         <h3>Mentor</h3>
@@ -45,8 +45,8 @@ function Mentor () {
                         <p>Sabine von Oesterreich is the founder of a company under her name, where she provides support to investors over the growth of their startups. She has been working as a consultant and coach for managers and teams in well-known organizations, including numerous DAX companies since 2007. She mentors entrepreneurs on how to eliminate losses and disruptive factors. She received her MD from Goethe University in Frankfurt, Germany.</p>
                     </div>
                 </div>
-                <div className="mentor-card">
-                    <img className="menn1" src="/images/mentor-5.png" alt="" />
+                <div className="mentor-card" id="nab">
+                    <img  src="/images/mentor-5.png" alt="" />
                     <div className="mentor-card-text">
                         <h2>HE Marwan Juma</h2>
                         <h3>Mentor</h3>
@@ -62,9 +62,9 @@ function Mentor () {
                     </div>
                 </div>
             </div>
-            <div className="mentor-card-item3">
+            <div className="mentor-card-item3" id="mar">
                 <div className="mentor-card">
-                    <img className="menn1" src="/images/mentor-7.png" alt="" />
+                    <img src="/images/mentor-7.png" alt="" />
                     <div className="mentor-card-text">
                         <h2>Marlène Corbun</h2>
                         <h3>Mentor</h3>

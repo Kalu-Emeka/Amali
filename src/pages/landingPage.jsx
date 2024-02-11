@@ -19,11 +19,11 @@ function Landingpage () {
                             <img className="w-20" src="/images/Group 3.svg" alt="" />
                             <span><span className="num">1,726</span>mentees use Amali daily</span>
                         </div>
-                        <div className="collections">
+                    </div> 
+                    <div className="collections">
                             <img className="figs" src="/images/Frame 630451.png" alt=""/>
                         </div>
                         {/* <img class="banner" src="images/banner.png" alt=""> */}
-                    </div> 
                 </div>
             </div>
             <section id="about">

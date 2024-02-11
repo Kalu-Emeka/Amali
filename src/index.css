@@ -54,32 +54,30 @@ nav ul li:hover .sub-menu2 ul {
 }
 .header {
     background-image: url("../images/Frame\ 10.png");
-    background-size: contain;
+    background-size: 90vw 100vh;
     background-repeat: no-repeat;
     object-fit: cover;
-    /* width: 100%; */
-    /* height: 100vh; */
     background-position: right;
 }
 .header-item {
     background-image: url("../images/Rectangle.png");
-    background-size: contain;
+    background-size: 50vw 100vh;
     background-position: left;
     object-fit: contain;
     background-repeat: no-repeat;
 }
 .header-item h2 {
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 49px;
     margin-bottom: 2px;
 }
 .header-subtext {
-    padding: 170px 70px 30px 70px;
-    width: 44%;
+    padding: 160px 70px 30px 70px;
+    width: 50%;
 }
 .header-item p {
-    width: 100%;
-    font-size: 15px;
+    width: 87%;
+    font-size: 16px;
     line-height: 25px;
     margin-bottom: 27px;
 }
@@ -87,9 +85,16 @@ nav ul li:hover .sub-menu2 ul {
     font-weight: bold;
     margin: 10px 5px 10px 10px;
 }
-.collections  {
-    margin-top: 90px;
-    width: 200%;
+.num-logo {
+    margin-bottom: 75px;
+}
+.collections {
+    /* width: 100%; */
+    margin-left: 70px;
+}
+.collections img {
+    width: 80%;
+    height: 18vh;
 }
 .btn {
     margin-bottom: 20px;
