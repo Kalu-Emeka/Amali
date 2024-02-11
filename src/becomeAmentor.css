@@ -1,7 +1,7 @@
 .becomeAmentor {
     color: white;
     background-image: url('/public/images/mentor.png');
-    padding: 100px;
+    padding: 130px 100px 100px 100px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -22,7 +22,7 @@
     color: white;
     padding: 30px;
     margin-top: 5px;
-    width: 70%;
+    width: 60%;
 }
 .name {
     display: flex;
@@ -33,6 +33,7 @@
 .name label {
     font-size: 15px;
     font-weight: 600;
+    margin-top: 10px;
 }
 .name .i1 {
     display: flex;
@@ -42,9 +43,9 @@
 .name .i1 input {
     padding: 8px;
     outline: none;
-    width: 90%;
+    width: 100%;
     color: black;
-    margin: 20px 20px 10px 0px;
+    margin: 10px 20px 10px 0px;
     border-radius: 2px;
 }
 .phone {
@@ -62,12 +63,19 @@
     margin: 10px 20px 10px 0px;
     border-radius: 2px;
 }
+.phone2 input {
+    width: 95%;
+}
+
 .phone .phone1, .phone2,select {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     width: 100%;
+}
+select {
+    width: 95%;
 }
 .form-control {
     background-color: white;

@@ -1,5 +1,8 @@
 .hh {
-    padding: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 100px 102px 100px;
 }
 .hh h2 {
     font-weight: 600;
