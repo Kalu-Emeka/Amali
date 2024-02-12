@@ -33,3 +33,90 @@
 .mentee3 img {
     width: 80%;
 }
+@media (max-width: 768px) {
+    .qualities-mentee {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding: 40px 10px 40px 70px;
+    }
+    .mentee1 {
+        margin-bottom: 20px;
+        width: 70%;
+        margin-right: 20px;
+        padding: 50px 50px 50px 20px;
+    }
+    .mentee2  {
+        margin-bottom: 20px;
+        width: 70%;
+        margin-right: 20px;
+        padding: 50px 50px 50px 20px;
+    }
+    .mentee1 p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .mentee2 p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .mentee3 img  {
+        width: 70%;
+        margin-left: 90px;
+    }
+    .qua1 .qualities-text {
+        width: 85%;
+        margin-bottom: 30px;
+    }
+    .qua1 p {
+        font-size: 19px;
+    }
+    .qua1 img {
+        width: 70%;
+    }
+    .qua1 {
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 40px 40px 40px;
+    }
+}
+@media (max-width: 414px) {
+    .becomeAmentor {
+        padding: 120px 30px 90px 30px;
+    }
+    .becomeAmentor h2 {
+        font-size: 30px;
+    }
+    .become-text {
+        padding: 20px;
+    }
+    .get-involve p {
+        width: 95%;
+    }
+    .qualities-mentee {
+        padding: 40px 10px 40px 20px;
+    }
+    .mentee1, .mentee2, .mentee3 {
+        width: 90%;
+    }
+    .mentee3 img{
+        width: 97%;
+        margin-left: 0px;
+    }
+    .mentee2 p {
+        line-height: 20px;
+    }
+    .qua1 .qualities-text {
+        width: 100%;
+        margin-bottom: 30px
+    }
+    .qua1 {
+        flex-direction: column-reverse;
+        padding: 30px 10px 30px 10px;      
+    }
+    .qua1 img {
+        width: 90%;
+    }
+}

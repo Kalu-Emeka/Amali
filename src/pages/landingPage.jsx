@@ -21,14 +21,16 @@ function Landingpage () {
                         </div>
                     </div> 
                     <div className="collections">
-                            <img className="figs" src="/images/Frame 630451.png" alt=""/>
-                        </div>
-                        {/* <img class="banner" src="images/banner.png" alt=""> */}
+                        <img className="figs" src="/images/Frame 630451.png" alt=""/>
+                    </div>
+                    <div className="ban">
+                        <img className="banner" src="/images/banner.png" alt="" />
+                    </div>
                 </div>
             </div>
             <section id="about">
                 <div className="about">
-                    <img className="about-im mt-20" src="/images/Group 625541.png" alt="" />
+                    <img className="about-im" src="/images/Group 625541.png" alt="" />
                     <div className="items">
                         <div className="about-subitem flex">
                             <div className="about-item1">
@@ -65,7 +67,7 @@ function Landingpage () {
                     </div>
                     <div className="mentors">
                         <div id="mentees" className="testm-subtext">
-                        <img src="images/Group 35.png" alt="" />
+                        <img src="images/Group 35.png" alt="" id="test"/>
                         <div className="mentts">
                             <div className="mente1">
                                 <img src="images/testimonials-img-1.png" alt=""/>

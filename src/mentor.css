@@ -150,3 +150,137 @@
 #mm {
     width: 170%;
 }
+@media (max-width: 768px) {
+    .mentor-card-item1 {
+        padding: 30px 80px 30px 80px;
+        flex-direction: column;
+    }
+    .mentor-card-text {
+        margin-top: 130px;
+        margin-right: 10px;
+    }
+    .mentor-card img {
+        width: 20%;
+        top: 4%;
+        left: 35%;
+    }
+    #nab img {
+        top: 36%;
+        left: 35%;
+    }
+    .mentor-card .menn2 {
+        top: 69%;
+        left: 35%;
+    }    
+    .mentor-card-item2 {
+        flex-direction: column;
+        padding: 30px 80px 0px 80px;
+    }
+    .mentor-card {
+        margin-bottom: 40px;
+    }
+    .mentor-card img {
+        width: 20%;
+        top: 3%;
+        left: 35%;
+    }
+    .mentor-card-item3 .mentor-card-text {
+        width: 85%;
+    }
+    #mar img {
+        left: 35%;
+    }
+    #meen1 {
+        flex-direction: column;
+        background-color: white;
+        padding: 30px 20px 30px 50px;
+    }
+    #meen1 img {
+        top: 3%;
+        left: 35%;
+    }
+    #meen1 .meen-img {
+        top: 36%;
+        left: 35%;
+    }
+    #meen1 .meen-img2 {
+        top: 67%;
+        left: 35%;
+    }
+    .mentor-card-text {
+        background-color: #F4F4F4;
+        padding: 30px 30px 30px 30px;
+        width: 100%;
+        margin-top: 150px;
+        margin-right: 10px;
+    }
+    #iof {
+        width: 95%;
+    }
+    #mm {
+        width: 95%;
+    }
+    
+}
+@media (max-width:  414px) {
+    .about-header h2 {
+        font-size: 30px;
+    }
+    .mentor-card-item1 {
+        padding: 30px 30px 30px 40px;
+        flex-direction: column;
+    }
+    .mentor-card {
+        margin-right: 20px;
+    }
+    #nab img {
+        top: 35%;
+        left: 35%;
+    }
+    .mentor-card .menn2 {
+        top: 68%;
+        left: 35%;
+    }    
+    .mentor-card-item2 {
+        flex-direction: column;
+        padding: 30px 20px 30px 40px;
+    }
+    .mentor-card {
+        margin-bottom: 40px;
+    }
+    .mentor-card img {
+        width: 30%;
+        top: 4%;
+        left: 35%;
+    }
+    .mentor-card-item3 {
+        padding: 30px 20px 30px 40px;
+    }
+    .mentor-card-item3 .mentor-card-text {
+        width: 97%;
+        
+    }
+    #mar img {
+        left: 35%;
+    }
+    #meen1 img {
+        top: 5%;
+        left: 35%;
+    }
+    #meen1 .meen-img {
+        top: 38%;
+        left: 35%;
+    }
+    #meen1 .meen-img2 {
+        top: 70%;
+        left: 35%;
+    }
+}
+@media (max-width: 375px) {
+    .hh {
+        padding: 110px 30px 90px 30px;
+    }
+    .about-header h2 {
+        font-size: 30px;
+    }
+}

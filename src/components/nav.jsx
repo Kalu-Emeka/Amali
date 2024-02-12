@@ -1,18 +1,26 @@
-import React from "react"
+import { useState } from "react"
 function Nav () {
+    const [showNavBar, setShowNavbar] = useState(false)
+
+    const handleShowNavbar = () => {
+        setShowNavbar(!showNavBar)
+    }
+    const removeActive = () => {
+        setIsActive(false)
+    }
     return (
         <>
             <div className="nav bg-white py-2 shadow-black">
-                <nav className="flex justify-between mx-11 h-12 pb-13">
+                <nav className="flex justify-between mx-4 h-12 pb-13">
                     <div className="nav-logo">
                         <div className="navLogo">
                             <a href="/"><img src="/images/amali-small-logo 1.svg" alt=""/></a>
                         </div>
                         <div className="logoBar w-0">
-                            <img src="/images/Untitled.png" alt=""/>
+                            <img onClick={handleShowNavbar} src="/images/Untitled.png" alt=""/>
                         </div>
                     </div>
-                    <ul id="nav-links" className="nav-links flex justify-center items-center text-green py-13">
+                    <ul id="nav-links" className={`nav-links flex justify-center items-center text-green py-13 ${showNavBar && 'active'}`}>
                         <li><a href="/home">Home</a></li>
                         <li><a href="/about">Who we are</a></li>
                         <li><a href="/mentor">Mentor</a>

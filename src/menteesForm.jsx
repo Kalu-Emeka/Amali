@@ -1,6 +1,6 @@
-import Nav from "../components/nav.jsx"
-import Footer from '../components/footer.jsx'
-import ContactTab from '../components/contactTab.jsx'
+import Nav from "./components/nav.jsx"
+import Footer from './components/footer.jsx'
+import ContactTab from './components/contactTab.jsx'
 function MenteeForm () {
     return (
         <>
@@ -8,54 +8,54 @@ function MenteeForm () {
             <div className="mentorForm">
                 <h2>MENTEE APPLICATION FORM</h2>
                 <div className="mentorForm-item">
-                    <form action="" method="get">
+                    <form action="https://formsubmit.co/Alphalucky.c@gmail.com" method="POST">
                         <div className="name">
                             <label htmlFor="Name">Name</label>
                             <div className="i1">
-                                <input type="text" required />
-                                <input type="text" required/>
+                                <input type="text" name="Name" required />
+                                <input type="text" name="Second-name" required/>
                             </div>
                         </div>
                         <div className="name address">
                             <label htmlFor="Address">Address</label>
                             <div className="i1">
-                                <input type="text" />
+                                <input type="text" name="Address" required />
                             </div>
                         </div>
                         <div className="name posters">
                             <label htmlFor="ZIP/Poster">ZIP/Poster</label>
                             <div className="i1">
-                                <input type="text" name="" id="" />
+                                <input type="text" name="ZIP/Poster" id="" required/>
                             </div>
                         </div>
                         <div className="phone">
                             <div className="phone1">
                                 <label htmlFor="Phone Number">Phone Number</label>
-                                <input type="tel" required/>        
+                                <input type="tel" name="Phone Number" required/>        
                             </div>
                             <div className="phone2">
                                 <label htmlFor="Email">Email</label>
-                                <input type="email" name="email" id=""required />
+                                <input type="email" name="Email" id=""required />
                             </div>
                         </div>
                         <div className="phone">
                             <div className="phone1">
                                 <label htmlFor="Facebook">Facebook</label>
-                                <input type="text" name="facebook" id="" required/>
+                                <input type="text" name="Facebook" id="" required/>
                             </div>
                             <div className="phone2">
-                                <label htmlFor="Age">LinkedIn</label>
-                                <input type="text" name="age" id=""required/>  
+                                <label htmlFor="LinekedIn">LinkedIn</label>
+                                <input type="url" name="LinkedIn" id=""required/>  
                             </div>
                         </div>
                         <div className="phone">
                             <div className="phone1">
                                 <label htmlFor="Website">Website</label>
-                                <input type="url" required/>
+                                <input type="url" name="Website" required/>
                             </div>
                             <div className="phone2">
                                 <label htmlFor="Country">Country</label>
-                                <select id="country" name="country" className="form-control">
+                                <select id="country" name="Country" className="form-control">
                                 <option value="Afghanistan">Afghanistan</option>
                                 <option value="Åland Islands">Åland Islands</option>
                                 <option value="Albania">Albania</option>
@@ -308,60 +308,60 @@ function MenteeForm () {
                                 <label htmlFor="Business">Marital Status</label>
                                 <div className="sts">
                                     <label htmlFor="Single">Single</label>
-                                    <input type="checkbox" name="" id="" />
+                                    <input type="checkbox" name="Single" id="" />
                                 </div>
                                 <div className="sts">
                                     <label htmlFor="Married">Married</label>
-                                    <input type="checkbox" name="" id="" />
+                                    <input type="checkbox" name="Married" id=""/>
                                 </div>
                             </div>
                             <div className="phone2">
                                 <label htmlFor="Education">Family Income</label>
-                                <input type="text" required/>
+                                <input type="text" name="Education" required/>
                             </div>
                         </div>
                         <div className="phone">
                             <div className="phone1">
                                 <label htmlFor="Activity">Startup Business Idea</label>
-                                <input type="text" required/>
+                                <input type="text" name="Startup Business Idea" required/>
                             </div>
                             <div className="phone2" id="hbb">
                                 <label htmlFor="What">Employment History (At Least 3 Lastest Jobs)</label>
-                                <input type="text"required/>
+                                <input type="text"name="Employment History (At Least 3 Lastest Jobs)" required/>
                             </div>
                         </div>
                         <div className="phone">
                             <div className="phone1">
                                 <label htmlFor="Activity">Education</label>
-                                <input type="text" required/>
+                                <input type="text" name="Education" required/>
                             </div>
                             <div className="phone2" id="hbb">
                                 <label htmlFor="What">Activities & Interests</label>
-                                <input type="text"required/>
+                                <input type="text" name="Activties & Interests" required/>
                             </div>
                         </div>
                         <div className="name address">
                             <label htmlFor="Address">What kind of skills and knowledge would you like a mentor to support you with?</label>
                             <div className="i1">
-                                <input type="text" />
+                                <input type="text" name="What kind of skills and knowledge would you like a mentor to support you with?" required />
                             </div>
                         </div>
                         <div className="name address">
                             <label htmlFor="Address">Brief summary of the reason for applying to the program?</label>
                             <div className="i1">
-                                <input type="text" />
+                                <input type="text"name="Brief summary of the reason for applying to the program?" required/>
                             </div>
                         </div>
                         <div className="files">
                             <label htmlFor="files">File Can Be PPT Or PDF</label>
-                            <input type="file" name="files" id="" required/>
+                            <input type="file" name="Files" id="" required/>
                             <p>Max. File Size: 1GB</p>
                         </div>
                         <div className="terms">
-                            <input type="checkbox" name="check" required/>
+                            <input type="checkbox" name="Terms and Condtions" required/>
                             <span>By using this form you agree with the storage and handling of your data by this website</span>
                         </div>
-                        <button class="bnn" type="submit">Submit</button>
+                        <button className="bnn" type="submit">Submit</button>
                     </form>
                 </div>
             </div>

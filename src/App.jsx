@@ -8,7 +8,7 @@ import Resources from './pages/resources.jsx'
 import BecomeAmentor from './pages/becomeAmentor.jsx'
 import BecomeAmentee from './pages/becomeAmentee.jsx'
 import MentorForm from './pages/mentorForm.jsx'
-import MenteeForm from './pages/menteesForm.jsx'
+import MenteeForm from './menteesForm.jsx'
 
 
 function App() {
