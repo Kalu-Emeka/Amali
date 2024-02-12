@@ -44,7 +44,7 @@ function Landingpage () {
                             <div className="subheading1">
                                 <img src="/images/detail-image-1.png" alt=""/>
                                 <h2>TAILORED GUIDANCE</h2>
-                                <p>Captured in the heartwarming photo to the right is the joy emanating from the first group of accomplished participants in the Amali Project. Originating from diverse backgrounds, these women, many from underprivileged areas, came together through our thoughtfully curated mentorship program. Our carefully selected mentees embark on a transformative journey guided by Rasha Oudeh herself. Through personalized 1:1 session, Rasha imparts her wealth of experience, ensuring that each mentoring relationship is uniquely tailored to the start-up needs of the mentee. Additionally, we enhance the learning experience by inviting expert speakers to address the entire group on specific business topics. </p>
+                                <p>Captured in the heartwarming photo above is the joy emanating from the first group of accomplished participants in the Amali Project. Originating from diverse backgrounds, these women, many from underprivileged areas, came together through our thoughtfully curated mentorship program. Our carefully selected mentees embark on a transformative journey guided by Rasha Oudeh herself. Through personalized 1:1 session, Rasha imparts her wealth of experience, ensuring that each mentoring relationship is uniquely tailored to the start-up needs of the mentee. Additionally, we enhance the learning experience by inviting expert speakers to address the entire group on specific business topics. </p>
                             </div>
                             <div className="subheading1">
                                 <img src="/images/detail-image-2.png" alt=""/>
@@ -107,12 +107,12 @@ function Landingpage () {
                         <h1>Our News</h1>
                     </div>
                     <div className="news-text">
-                        <img src="/images/Frame 630400.png" alt="" />
+                        <img src="/images/business.png" alt="" />
                         <div className="news-text2">
                             <p> You shouldn’t stay in traditional models: Interview in Business Class Magazine Zurich </p>
                             <p>December, 17, 2023 </p>
                             <p>CEDEM Switzerland, a leading Swiss Nutraceutical company, takes a strategic leap into crowdinvesting for its global expansion. CEO Rasha Oudeh </p>
-                            <a href="/about">Continue Reading</a>
+                            <a href="https://amaliprogram.com/news/" target="_blank">Continue Reading</a>
                         </div>
                     </div> 
                     <button>CLICK FOR MORE</button>

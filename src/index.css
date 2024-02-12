@@ -10,6 +10,9 @@ body {
 }
 
 nav { 
+    /* position: absolute;
+    width: 100%; */
+    background-color: white;
     margin: 10px 40px 10px 40px;
 }
 nav ul li {
@@ -98,7 +101,7 @@ nav ul li:hover .sub-menu2 ul {
     margin-left: 70px;
 }
 .collections img {
-    width: 95%;
+    width: 90%;
     height: 19vh;
 }
 /* .collections img {
@@ -312,7 +315,7 @@ nav ul li:hover .sub-menu2 ul {
     align-items: center;
     font-size: 16px;
     width: 100%;
-    line-height: 16px;
+    line-height: 25px;
     margin-bottom: 20px;
 }
 .ment1-text {
