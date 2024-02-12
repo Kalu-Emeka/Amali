@@ -338,7 +338,7 @@ nav ul li:hover .sub-menu2 ul {
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
-    padding: 50px;
+    padding:  50px 50px 50px 10px;
     width: 80%;
     margin-top: 30px;
 }
@@ -665,7 +665,7 @@ footer {
         background-position: left;
     }
     .header-item {
-        background-size: 90vw 85vh;
+        background-size: 20vw 85vh;
     }
     .header-item h2 {
         font-size: 30px;

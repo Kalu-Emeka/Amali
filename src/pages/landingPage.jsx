@@ -107,12 +107,12 @@ function Landingpage () {
                         <h1>Our News</h1>
                     </div>
                     <div className="news-text">
-                        <img src="/images/business.png" alt="" />
+                        <img src="/images/buss.png" alt="" />
                         <div className="news-text2">
                             <p> You shouldn’t stay in traditional models: Interview in Business Class Magazine Zurich </p>
                             <p>December, 17, 2023 </p>
                             <p>CEDEM Switzerland, a leading Swiss Nutraceutical company, takes a strategic leap into crowdinvesting for its global expansion. CEO Rasha Oudeh </p>
-                            <a href="https://amaliprogram.com/news/" target="_blank">Continue Reading</a>
+                            <a href="https://amaliprogram.com/you-shouldnt-stay-in-traditional-models-interview-in-business-class-magazine-zurich/" target="_blank">Continue Reading</a>
                         </div>
                     </div> 
                     <button>CLICK FOR MORE</button>
