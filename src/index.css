@@ -101,7 +101,9 @@ nav ul li:hover .sub-menu2 ul {
     margin-left: 70px;
 }
 .collections img {
-    width: 90%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     height: 19vh;
 }
 /* .collections img {

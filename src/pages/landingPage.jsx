@@ -115,7 +115,7 @@ function Landingpage () {
                             <a href="https://amaliprogram.com/you-shouldnt-stay-in-traditional-models-interview-in-business-class-magazine-zurich/" target="_blank">Continue Reading</a>
                         </div>
                     </div> 
-                    <button>CLICK FOR MORE</button>
+                    <button><a href="https://amaliprogram.com/news/" target="_blank">CLICK FOR MORE</a></button>
                 </div>
             </section>
             <section id="contact">
